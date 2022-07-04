@@ -24,7 +24,7 @@ public final class Algorithm {
         int[] colDir = {0, 1, 0, -1};
 
         loop:
-        for(int i = 0; i < 4; i++) {
+        for(int i = 0; i < 5; i++) {
             if(!pathfindingRun.isRunning()) break;
             List<Integer> next;
             int nextRow = current.get(0) + rowDir[i];
